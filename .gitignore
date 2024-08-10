@@ -4,6 +4,7 @@
 node_modules/
 eas.json
 package-lock.json
+build/
 # Expo
 .expo/
 dist/
