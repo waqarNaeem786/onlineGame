@@ -2,12 +2,14 @@
 
 # dependencies
 node_modules/
-
+eas.json
+package-lock.json
 # Expo
 .expo/
 dist/
 web-build/
-
+.easignore
+.vscode
 # Native
 *.orig.*
 *.jks

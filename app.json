@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "onlineGame",
+    "name": "com.android.jewelcash",
     "slug": "onlineGame",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,16 +12,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.android.jewelcash"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.android.jewelcash",
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE", "ACCESS_WIFI_STATE"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e13a24f3-286e-4568-a449-6994259528ce"
+      }
     }
   }
 }
